@@ -1,0 +1,263 @@
+body{
+    background-image: url(./Images/ForzaHorizon5Pics/fh7.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 53%;
+    box-shadow: 2px 2px 2px black;
+}
+
+
+.carousel {
+    width: 60%;
+    margin: 60px auto;
+    
+  }
+
+.item-heading{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 32pt;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: yellow;
+    letter-spacing: 4px;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+}
+
+.cimg{
+    border: 6px solid black;
+    border-radius: 20px;
+}
+
+
+.item-heading:hover{
+    text-decoration: underline;
+}
+
+
+.nav > a{
+    width: 50%;
+    text-align: center;
+    color: black;
+    padding: 10;
+    font-size: 14pt;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-shadow: 1px 1px 3px white;
+}
+
+.navlogo{
+    margin-top: -15px;
+    margin-left: 30px;
+}
+
+.navbtn{
+    margin-right: 20px;
+    margin-top: -15px;
+    background-color: white;
+}
+
+.navbtn:hover{
+    background-color: rgb(154, 154, 154);
+}
+
+.navbar{
+    height: 80px;
+    background-color: rgb(55, 55, 55);
+    color: black;
+    border-bottom: 2px double black;
+}
+
+.nav > a:hover{
+    color:yellow;
+}
+
+.nav-link{
+    text-transform: uppercase;
+    width: 100%;
+    padding: 10;
+}
+
+.nav-item>a{
+    text-transform: uppercase;
+    width: 100%;
+    padding: 10;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+.nav-item>a:hover{
+    color: rgb(200, 200, 200);
+}
+
+.offcanvas{
+    background-color: red;
+    padding: 30;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+    border-radius: 5px;
+}
+
+.dropdown-menu>a{
+    width: 100%;
+    padding: 20;
+    font-weight: 600;
+    color: black;
+    background-color: transparent;
+
+}
+
+.dropdown:hover{
+    width: 100%;
+    outline: none;
+    /* text-decoration: underline; */
+    border-radius: 5px;
+}
+
+
+.heroestitle{
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 32pt;
+}
+
+.heroesinfo{
+    margin-top: 5px;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 32pt;
+}
+
+
+.carousel-main-heading{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 0, 170);
+    text-shadow: 2px 2px 1px black;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.carousel-main-heading:hover{
+    text-decoration: underline;
+}
+    
+
+.carousel-control-next-icon,.carousel-control-prev-icon{
+    /* background-color: rgba(21, 0, 255, 0.69); */
+    border-radius: 10px;
+    padding: 35;
+    margin-top: 160px;
+}
+
+.carousel-control-prev-icon:hover{
+    padding: 30;
+    border-radius: 10px;
+    background-color: rgba(114, 114, 114, 0.441);
+}
+
+.carousel-control-next-icon:hover{
+    padding: 30;   
+    border-radius: 10px;
+    background-color: rgba(114, 114, 114, 0.441);
+}
+
+.album-title{
+    color: white;
+    font-size: 38pt;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 1px black;
+}
+
+.album-info{
+    color: white;
+    font-size: 18pt;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 1px black;
+}
+
+
+@media (max-width:768px){
+
+
+    .container-nav{
+        background-color: rgb(43, 43, 43);
+        margin-top: 10px;
+        width: 90%;
+        padding: 0;
+        /* height: 120px; */
+    }
+
+    .carousel{
+        width: 95%;
+    }
+
+    .nav{
+        /* margin-top: -20px; */
+        gap: 10;
+    }
+
+    .item-heading{
+        font-size: 16pt;
+    }
+
+    .form-control{
+        width: 10%;
+    }
+
+    .carousel-control-prev-icon{
+       margin-top: 130px;
+    }
+
+    .carousel-control-prev-icon:hover{
+        padding: 0;
+        border-radius: 10px;
+        background-color: rgba(114, 114, 114, 0.441);
+    }
+
+    .carousel-control-next-icon{
+        margin-top: 130px;
+     }
+    
+    .carousel-control-next-icon:hover{
+        padding: 0;   
+        border-radius: 10px;
+        background-color: rgba(114, 114, 114, 0.441);
+    }
+
+    .heroestitle{
+        font-size: 18pt;
+    }
+
+    #heroesimg{
+        width: 105%;
+    }
+
+    .nav > a{
+        /* display: none; */
+        width: 30%;
+        font-size: 8pt;
+        font-weight: 900;
+        border-color: black;
+    }
+
+    .navlogo{
+        margin-left: -15px;
+    }
+
+    .album-title{
+        font-size: 20pt;
+    }
+
+    .album-info{
+        font-size: 10pt;
+    }
+
+}
