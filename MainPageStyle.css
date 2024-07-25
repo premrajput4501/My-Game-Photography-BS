@@ -1,6 +1,5 @@
 body{
-    background-image: url(./Images/ForzaHorizon5Pics/fh7.png) ;
-    background-repeat: no-repeat;
+    background-image: url(./Images/ForzaHorizon5Pics/fh10.png);
     background-size: cover;
     background-position: 53%;
     box-shadow: 2px 2px 2px black;
@@ -42,6 +41,12 @@ body{
     text-decoration: underline;
 }
 
+.navbar{
+    height: 80px;
+    background-color: rgba(110, 110, 110, 0.359);
+    color: black;
+    border-bottom: 0.3px double black;
+}
 
 .nav > a{
     width: 50%;
@@ -69,12 +74,7 @@ body{
     background-color: rgb(154, 154, 154);
 }
 
-.navbar{
-    height: 80px;
-    background-color: rgb(55, 55, 55);
-    color: black;
-    border-bottom: 2px double black;
-}
+
 
 .nav > a:hover{
     color:yellow;
@@ -90,7 +90,7 @@ body{
     text-transform: uppercase;
     width: 100%;
     padding: 10;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-weight: 700;
 }
 
@@ -101,6 +101,10 @@ body{
 .offcanvas{
     background-color: red;
     padding: 30;
+}
+
+#offcanvasDarkNavbar{
+    background-color: rgb(123, 123, 123);
 }
 
 .nav-link:hover{
@@ -147,7 +151,7 @@ body{
 .carousel-main-heading{
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(255, 0, 170);
+    color: rgb(94, 255, 0);
     text-shadow: 2px 2px 1px black;
     margin-bottom: 30px;
     font-weight: 700;
