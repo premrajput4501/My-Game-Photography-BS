@@ -70,7 +70,7 @@ body{
     background-color: rgba(110, 110, 110, 0.359);
     color: black;
     /* border-bottom: 5px solid rgba(0, 0, 0, 0.532); */
-    box-shadow: 1px 6px 6px black;
+    box-shadow: 1px 3px 3px black;
 }
 
 .nav > a{
@@ -177,10 +177,10 @@ body{
 .carousel-main-heading{
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(94, 255, 0);
+    color: rgb(229, 255, 0);
     text-shadow: 2px 2px 1px black;
     margin-bottom: 30px;
-    font-weight: 700;
+    font-weight: 900;
 }
 
 .carousel-main-heading:hover{

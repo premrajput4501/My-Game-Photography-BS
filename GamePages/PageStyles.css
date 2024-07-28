@@ -22,13 +22,17 @@
     }
   }
 
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .navbar{
     height: 80px;
     background-color: rgba(110, 110, 110, 0.359);
     color: black;
     /* border-bottom: 5px solid rgba(0, 0, 0, 0.532); */
-    box-shadow: 1px 6px 6px black;
+    box-shadow: 1px 3px 3px black;
 }
 
 .nav > a{
@@ -145,7 +149,38 @@
     border-radius: 10px;
 }
 
+.gallery-title{
+    width: 50%;
+    margin: 40px auto;
+    font-size: 32pt;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    margin-bottom: 50px;
+}
+
+.gallery-title:hover{
+    text-decoration: underline;
+    color: yellow;
+}
+
+#cardsqaure{
+    border-radius: 0px;
+    border: 3px solid white;
+}
+
 @media (max-width:768px){
+
+    .navlogo{
+        margin-left: -15px;
+    }
+
+    .carousel{
+        width: 98%;
+    }
 
     .carousel-head-img{
         display: inline-flex;
@@ -162,8 +197,23 @@
     }
 
     .carousel-control-prev-icon, .carousel-control-next-icon{
+        width: 50px;
         padding: 0px;
         margin-top: 100px;
+    }
+
+    .carousel-control-prev-icon:hover, .carousel-control-next-icon:hover{
+        padding: 0px;
+        height: 30px;
+        width: 30px;
+        background-color: rgba(255, 255, 255, 0.496);
+        border-radius: 5px;
+    }
+
+    .gallery-title{
+        width: 100%;
+        margin-top: -10px;
+        font-size: 16pt;
     }
 
 
