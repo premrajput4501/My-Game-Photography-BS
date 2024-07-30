@@ -1,4 +1,5 @@
 body{
+    animation: gradient-animation-2 100s ease-in-out infinite;
     background-image: url(./Images/ForzaHorizon5Pics/fh10.png);
     background-size: cover;
     background-position: 53%;
@@ -29,11 +30,23 @@ body{
     }
   }
 
+  @keyframes gradient-animation-2 {
+    0% {
+      background-position: 50% 100%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 50% 0%;
+    }
+  }
+
 
 .carousel {
-    width: 60%;
+    width: 70%;
     margin: 60px auto;
-  }
+}
 
 .carousel-img{
     display: inline-flex;
@@ -141,18 +154,20 @@ body{
 .dropdown-menu>a{
     width: 100%;
     padding: 20;
-    font-weight: 600;
+    font-weight: 700;
     color: black;
     background-color: transparent;
 
 }
 
 .dropdown:hover{
+    transition: ease-in-out;
     width: 100%;
     outline: none;
     /* text-decoration: underline; */
     border-radius: 5px;
 }
+
 
 
 .heroestitle{
@@ -206,6 +221,27 @@ body{
     background-color: rgba(114, 114, 114, 0.441);
 }
 
+.jmbo{
+    height: 500px;
+    background-image: url(./Images/ARKPics/ark8.png);
+    background-position: 0%;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    box-shadow: 2px 2px 2px black;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+}
+
+.jmbo:hover{
+    animation: gradient-animation 7s ease-in-out infinite;
+    /* background-size: 140%; */
+}
+
+.jmbo > .container-fluid h1,p{
+    text-align: center;
+    margin-top: 70px;
+}
+
 .album-upper-body{
     margin-bottom: -50px;
 }
@@ -224,9 +260,21 @@ body{
     text-shadow: 2px 2px 1px black;
 }
 
+.card-body p{
+    text-align: left;
+}
+
+.btn-group a{
+    margin-right:5px;
+}
+
 
 @media (max-width:768px){
 
+    body{
+        background-image: url(./Images/ARKPics/ark10.png);
+        animation: gradient-animation-2 100s ease-in-out infinite;
+    }
 
     .container-nav{
         background-color: rgb(43, 43, 43);
@@ -291,7 +339,7 @@ body{
     }
 
     #heroesimg{
-        width: 105%;
+        width: 1000px;
     }
 
     .nav > a{
@@ -312,6 +360,30 @@ body{
 
     .album-info{
         font-size: 10pt;
+    }
+
+    #footer{
+        font-size: 1pt;
+    }
+
+    .jmbo{
+        animation: gradient-animation 50s ease-in-out infinite;
+        background-image: url(./Images/ARKPics/ark5.png);
+        height: 400px;
+        /* background-position: 30%; */
+    }
+
+    .jmbo:hover{
+        animation: gradient-animation 50s ease-in-out infinite;
+    }
+
+    .jmbo > .container-fluid h1,p{
+        margin-top: 50px;
+        font-size: 16pt;
+    }
+
+    .jmbo > .container-fluid p{
+        font-size: 12pt;
     }
 
 }
