@@ -386,7 +386,7 @@ body{
 
     .jmbo > .container-fluid h1,p{
         margin-top: 50px;
-        font-size: 16pt;
+        font-size: 22pt;
     }
 
     .jmbo > .container-fluid p{
@@ -403,9 +403,10 @@ body{
 
     .card-text{
         margin-top: -13px;
-        font-size: 8pt;
+        font-size: 7pt;
         font-weight: 500;
         width: 100%;
+        margin-right: 10px;
     }
     
     .btn-group button{
