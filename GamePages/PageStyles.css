@@ -168,10 +168,12 @@ body{
     color: yellow;
 }
 
-#cardsqaure{
+.col > .card{
     border-radius: 0px;
     border: 3px solid white;
 }
+
+
 
 @media (max-width:768px){
 
@@ -215,6 +217,10 @@ body{
         width: 100%;
         margin-top: -10px;
         font-size: 16pt;
+    }
+
+    .col > .card{
+        /* width: 380px; */
     }
 
 
