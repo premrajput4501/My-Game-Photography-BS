@@ -280,7 +280,8 @@ body{
 
     body{
         background-image: url(./Images/ARKPics/ark10.png);
-        animation: gradient-animation-2 100s ease-in-out infinite;
+        animation: none;
+        background-position: 60%;
     }
 
     .container-nav{
@@ -346,7 +347,7 @@ body{
     }
 
     #heroesimg{
-        width: 1000px;
+        width: 2000px;
     }
 
     .nav > a{
@@ -394,6 +395,7 @@ body{
     }
 
     .card-body{
+        background-color: rgba(202, 202, 202, 0.518);
         height: 80px;
     }
 
@@ -411,7 +413,7 @@ body{
     
     .btn-group button{
         margin-top: -8px;
-        margin-left: -2px;
+        /* margin-left: -2px; */
         width: 100%;
         font-size: 6pt;
         font-weight: 600;
