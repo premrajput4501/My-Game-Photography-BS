@@ -99,7 +99,7 @@ body{
 
 .navlogo{
     margin-top: -15px;
-    margin-left: 30px;
+    margin-left: 0px;
 }
 
 .navbtn{
@@ -171,21 +171,32 @@ body{
 
 
 .heroestitle{
-    color: white;
-    text-shadow: 3px 3px 3px black;
+    display: inline-flex;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 3px rgb(255, 0, 179);
+    background: none;
     text-transform: uppercase;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 28pt;
     margin-bottom: 30px;
 }
 
+.heroestitle:hover{
+    cursor: pointer;
+    color: black;
+}
+
 .heroesinfo{
     margin-top: 5px;
     color: white;
-    text-shadow: 3px 3px 3px black;
+    text-shadow: 2px 2px 3px black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 22pt;
     margin-bottom: 40px;
+}
+
+.heroesinfo:hover{
+    cursor: default;
 }
 
 
@@ -201,12 +212,16 @@ body{
 .carousel-main-heading:hover{
     text-decoration: underline;
 }
+
+.carousel-control-next,.carousel-control-prev{
+    height: 10px;
+}
     
 
 .carousel-control-next-icon,.carousel-control-prev-icon{
     border-radius: 10px;
     padding: 35;
-    margin-top: 270px;
+    margin-top: 1200px;
 }
 
 .carousel-control-prev-icon:hover{
@@ -323,9 +338,11 @@ body{
         width: 300px;
     }
 
-    .carousel-control-prev-icon,.carousel-control-next-icon{
-       padding: 20;
-       margin-top: 220px;
+    .carousel-control-prev-icon, .carousel-control-next-icon{
+        visibility: hidden;
+        width: 50px;
+        padding: 0px;
+        margin-top: 1200%;
     }
 
     .carousel-control-prev-icon:hover , .carousel-control-next-icon:hover{
