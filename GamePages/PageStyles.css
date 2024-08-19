@@ -76,12 +76,16 @@ body{
 .nav-item>a{
     text-transform: uppercase;
     width: 100%;
-    padding: 10px;
+    padding: 20;
+    margin-left: 10px;
+    margin-bottom: 5px;
     color: rgb(0, 0, 0);
     font-weight: 700;
+    transition: transform 0.3s;
 }
 
 .nav-item>a:hover{
+    transform: scale(1.06);
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px 3px black;
 }
@@ -97,6 +101,8 @@ body{
 }
 
 .nav-link:hover{
+    margin-left: 10px;
+    transform: scale(1.06);
     text-decoration: underline;
     border-radius: 5px;
 }
@@ -115,6 +121,23 @@ body{
     outline: none;
     /* text-decoration: underline; */
     border-radius: 5px;
+}
+
+.top-picks{
+    display: inline-flex;
+    font-size: 24pt;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    color: greenyellow;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.top-picks:hover{
+    text-shadow: 2px 2px 2px black;
+    cursor: default;
 }
 
 .carousel{
@@ -138,21 +161,23 @@ body{
 }
 
 .carousel-control-next,.carousel-control-prev{
-    height: 10px;
+    margin-top: 620px;
+    height: 100px;
 }
     
+
 .carousel-control-next-icon,.carousel-control-prev-icon{
     border-radius: 10px;
-    padding: 35;
-    margin-top: 1200px;
+    padding: 65;
+    
 }
 
-.carousel-control-prev-icon:hover, .carousel-control-next-icon:hover{
-    padding: 20px;
-    height: 50px;
+.carousel-control-prev-icon:hover,.carousel-control-next-icon:hover{
+    translate: transform 0.3s;
     width: 50px;
-    background-color: rgba(255, 255, 255, 0.496);
-    border-radius: 10px;
+    height: 40px;
+    transform: scale(1.8);
+    background-color: rgba(179, 179, 179, 0.523);
 }
 
 .gallery-title{
@@ -178,6 +203,13 @@ body{
     border: 3px solid white;
 }
 
+.card{
+    transition: transform 0.3s;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
 
 
 @media (max-width:1400px){
@@ -194,8 +226,9 @@ body{
         display: inline-flex;
         justify-content: center;
         align-items: center;
-        width: 100%;
+        /* width: 80%; */
         height: 50px;
+        margin-top: 40px;
         margin-bottom: 40px;
     }
 
@@ -227,6 +260,10 @@ body{
 
     .col > .card{
         /* width: 380px; */
+    }
+
+    .top-picks{
+        font-size: 14pt;
     }
 
 
