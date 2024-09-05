@@ -1,11 +1,11 @@
 .gradient-background {
-    background: linear-gradient(130deg, #dd00ff, #ffffff, #000000);
+    background: linear-gradient(130deg, #ffffff, #c0c0c0, #000000);
     background-size: 250% 250%;
-    animation: gradient-animation 7s ease-in-out infinite;
+    animation: gradient-animation 3s ease-in-out infinite;
 }
 
 .gradient-background-2 {
-    background: linear-gradient(400deg, #ff00f2a7, #ffffff72, #ffffff98);
+    background: linear-gradient(400deg, #ffffffa7, #cccccc8f, #000000d9);
     background-size: 250% 250%;
     animation: gradient-animation 5s ease-in-out infinite;
 }
@@ -33,7 +33,7 @@ body{
     background-color: rgba(110, 110, 110, 0.359);
     color: black;
     /* border-bottom: 5px solid rgba(0, 0, 0, 0.532); */
-    box-shadow: 1px 3px 3px black;
+    box-shadow: 1px 3px 0px black;
 }
 
 .nav > a{
@@ -53,8 +53,8 @@ body{
 }
 
 .navbtn{
-    margin-right: 20px;
-    margin-top: -15px;
+    margin-left: 96%;
+    margin-top: -5px;
     background-color: white;
 }
 
@@ -194,6 +194,7 @@ body{
 }
 
 .gallery-title:hover{
+    cursor: default;
     text-decoration: underline;
     color: yellow;
 }
@@ -214,8 +215,8 @@ body{
 
 @media (max-width:1400px){
 
-    .navlogo{
-        margin-left: -15px;
+    #navbutton{
+        margin-left: 0px;
     }
 
     .carousel{
