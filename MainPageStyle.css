@@ -15,7 +15,7 @@ body{
 .gradient-background-2 {
     background: linear-gradient(400deg, #ffffffa7, #cccccc8f, #000000d9);
     background-size: 250% 250%;
-    animation: gradient-animation 5s ease-in-out infinite;
+    /* animation: gradient-animation 5s ease-in-out infinite; */
 }
 
 @keyframes gradient-animation {
@@ -30,7 +30,7 @@ body{
     }
   }
 
-  @keyframes gradient-animation-2 {
+@keyframes gradient-animation-2 {
     0% {
       background-position: 50% 100%;
     }
@@ -84,7 +84,7 @@ body{
     background-color: rgba(110, 110, 110, 0.359);
     color: black;
     /* border-bottom: 5px solid rgba(0, 0, 0, 0.532); */
-    box-shadow: 1px 3px 0px rgb(63, 63, 63);
+    box-shadow: 1px 4px 0px rgb(6, 6, 6);
 }
 
 .nav > a{
@@ -348,16 +348,18 @@ body{
     }
 
     .carousel-control-prev-icon, .carousel-control-next-icon{
-        visibility: hidden;
-        width: 50px;
-        padding: 0px;
-        margin-top: 1200%;
+        /* visibility: hidden; */
+        width: 10px;
+        height: 10px;
+        padding: 1px;
+        margin-top: 650px;
     }
 
     .carousel-control-prev-icon:hover , .carousel-control-next-icon:hover{
-        padding: 0;
+        padding: 0.5;
+        transform: scale(1.1);
         border-radius: 10px;
-        background-color: rgba(114, 114, 114, 0.441);
+        background-color: rgba(51, 51, 51, 0.441);
     }
 
     .heroestitle{
